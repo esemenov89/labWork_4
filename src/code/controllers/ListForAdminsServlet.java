@@ -7,7 +7,10 @@ import code.services.StorageUnitServiceImpl;
 import code.services.UserService;
 import code.services.UserServiceImpl;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.context.support.SpringBeanAutowiringSupport;
 
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -20,8 +23,11 @@ import java.util.HashSet;
  */
 public class ListForAdminsServlet  extends HttpServlet {
 
-    private static StorageUnitService storageUnitService = new StorageUnitServiceImpl();
-    private static UserService userService = new UserServiceImpl();
+    @Autowired
+    private StorageUnitService storageUnitService;
+
+    @Autowired
+    private UserService userService;
     HashSet<StorageUnit> storageUnits = null;
 
     @Override
@@ -53,5 +59,12 @@ public class ListForAdminsServlet  extends HttpServlet {
         if(req.getParameter("readIsn")==null && req.getParameter("delIsn")==null){
             resp.sendRedirect(req.getContextPath() + "/listEntitiesForAdmins");
         }
+    }
+
+    @Override
+    public void init(ServletConfig config) throws ServletException {
+        super.init(config);
+        SpringBeanAutowiringSupport.processInjectionBasedOnServletContext(this,
+                config.getServletContext());
     }
 }

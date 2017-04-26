@@ -6,6 +6,9 @@ import code.model.pojo.User;
 import org.apache.log4j.Logger;
 
 import code.model.dao.UserDAO;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.regex.Matcher;
@@ -14,11 +17,22 @@ import java.util.regex.Pattern;
 /**
  *
  */
+//@Service
+@Component  // LAB4
 public class UserServiceImpl implements UserService {
 
     private static final Logger LOGGER = Logger.getLogger(UserServiceImpl.class);
 
-    private static UserDAO userDAO = new UserDAOImpl();
+    private UserDAO userDAO; // LAB4
+
+    public UserDAO getUserDAO() {
+        return userDAO;
+    }
+
+    //@Autowired
+    public void setUserDAO(UserDAO userDAO) {
+        this.userDAO = userDAO;
+    }
 
     @Override
     public User auth(String login, String password) {
