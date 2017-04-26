@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <servlet-class>code.controllers.WelcomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>code.controllers.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>code.controllers.LogOutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+
+    <filter>
+        <filter-name>WhiteFilter</filter-name>
+        <filter-class>code.controllers.filters.WhiteList</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>WhiteFilter</filter-name>
+        <servlet-name>ListForUsersServlet</servlet-name>
+    </filter-mapping>
+    <filter>
+        <filter-name>AdminFilter</filter-name>
+        <filter-class>code.controllers.filters.AdminList</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AdminFilter</filter-name>
+        <servlet-name>ListForAdminsServlet</servlet-name>
+    </filter-mapping>
+    <filter>
+        <filter-name>RegisterFilter</filter-name>
+        <filter-class>code.controllers.filters.RegisterFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>RegisterFilter</filter-name>
+        <servlet-name>RegisterServlet</servlet-name>
+    </filter-mapping>
+
+
+    <servlet>
+        <servlet-name>ListForUsersServlet</servlet-name>
+        <servlet-class>code.controllers.ListForUsersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListForUsersServlet</servlet-name>
+        <url-pattern>/listEntitiesForUsers</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ListForAdminsServlet</servlet-name>
+        <servlet-class>code.controllers.ListForAdminsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListForAdminsServlet</servlet-name>
+        <url-pattern>/listEntitiesForAdmins</url-pattern>
+    </servlet-mapping>
+</web-app>

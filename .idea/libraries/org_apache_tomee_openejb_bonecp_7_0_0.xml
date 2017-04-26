@@ -1,0 +1,68 @@
+<component name="libraryTable">
+  <library name="org.apache.tomee:openejb-bonecp:7.0.0" type="repository">
+    <properties maven-id="org.apache.tomee:openejb-bonecp:7.0.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/openejb-bonecp-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openejb-core-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mbean-annotation-api-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openejb-jpa-integration-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javaee-api-7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openejb-api-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openejb-loader-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openejb-javaagent-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openejb-jee-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openejb-jee-accessors-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sxc-jaxb-core-0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sxc-runtime-0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-cli-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-collections-3.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activemq-ra-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activemq-broker-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activemq-client-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hawtbuf-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activemq-openwire-legacy-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activemq-kahadb-store-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activemq-protobuf-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activemq-jdbc-store-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/geronimo-connector-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/geronimo-transaction-3.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/geronimo-j2ee-connector_1.6_spec-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/howl-1.0.1-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/geronimo-javamail_1.4_mail-1.9.0-alpha-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xbean-asm5-shaded-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xbean-finder-shaded-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xbean-reflect-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xbean-naming-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xbean-bundleutils-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hsqldb-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-dbcp2-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-pool2-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/swizzle-stream-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/quartz-openejb-shade-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-jdk14-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openwebbeans-impl-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openwebbeans-spi-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openwebbeans-ejb-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openwebbeans-ee-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openwebbeans-ee-common-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openwebbeans-web-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openwebbeans-el22-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/openjpa-2.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/serp-1.15.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bval-core-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-core-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bval-jsr-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-api-2.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-impl-2.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bonecp-0.8.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-15.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="labWork_4">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="labWork_4.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="labWork_4" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="library" level="project" name="junit:junit:4.5" />
+          <element id="library" level="project" name="log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="org.apache.tomee:openejb-bonecp:7.0.0" />
+          <element id="library" level="project" name="ojdbc6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="labWork_4/web/Web" />
+    </root>
+  </artifact>
+</component>
